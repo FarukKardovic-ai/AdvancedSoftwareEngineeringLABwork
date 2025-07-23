@@ -1,0 +1,107 @@
+Object-Oriented Programming (OOP) Examination
+
+Instructions for Students:
+
+Duration: 2 hours
+
+Total Marks: 100
+
+This exam is divided into two sections:
+
+Section A: Theoretical Concepts (40 Marks) - Answer all questions in this section.
+
+Section B: Practical Application (60 Marks) - Complete the coding task as described.
+
+For Section B, you are required to write clean, well-documented code that adheres to OOP principles.
+
+Partial marks will be awarded for correct logic and implementation, even if the final output is not perfect.
+
+Section A: Theoretical Concepts (40 Marks)
+
+1. Multiple Choice Questions (10 Marks)
+
+Which of the following is NOT a fundamental concept of Object-Oriented Programming?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Procedural Abstraction
+
+The mechanism of binding the data and the methods that act on the data into a single unit is called:
+a) Abstraction
+b) Encapsulation
+c) Inheritance
+d) Polymorphism
+
+The ability of an object to take on many forms is known as:
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Abstraction
+
+Which of the following allows a class to acquire the properties and behavior of another class?
+a) Aggregation
+b) Composition
+c) Inheritance
+d) Encapsulation
+
+Hiding the implementation details of a class and only showing the essential features is known as:
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) Inheritance
+
+2. Short Answer Questions (30 Marks)
+
+Explain the difference between a class and an object with a real-world example. (10 marks)
+
+Describe the four main pillars of Object-Oriented Programming: Encapsulation, Inheritance, Polymorphism, and Abstraction. Provide a brief example for each. (20 marks)
+
+Section B: Practical Application (60 Marks)
+
+Scenario: A Simple Library Management System
+
+You are tasked with designing a simple command-line based library management system. The system should be able to manage different types of library items (books and DVDs) and allow for checking them in and out.
+
+Requirements:
+
+Create a base class LibraryItem with the following attributes and methods:
+
+Attributes:
+
+title (string)
+
+itemId (string)
+
+isCheckedOut (boolean, initialized to false)
+
+Methods:
+
+A constructor to initialize title and itemId.
+
+checkOut(): Sets isCheckedOut to true.
+
+checkIn(): Sets isCheckedOut to false.
+
+display(): A virtual method that displays the details of the item.
+
+Create two derived classes, Book and DVD, that inherit from LibraryItem:
+
+Book class:
+
+Additional Attribute: author (string)
+
+Override display(): Should display the title, author, and item ID of the book.
+
+DVD class:
+
+Additional Attribute: director (string)
+
+Override display(): Should display the title, director, and item ID of the DVD.
+
+Implement the system in a main program that demonstrates the functionality. The program should:
+
+Create at least one Book object and one DVD object.
+
+Demonstrate checking out and checking in of these items.
+
+Display the details of all library items to show their status (checked in or out).

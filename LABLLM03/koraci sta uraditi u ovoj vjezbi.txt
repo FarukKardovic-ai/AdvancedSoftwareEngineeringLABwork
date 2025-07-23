@@ -1,0 +1,4 @@
+skini ollama model
+run ollama model
+get api with some free LLMs liek google AI ili ti ga tako nesto
+Igraj se sa LLMom , probaj analizirat kod, nek ti da prijedloge sta uraditi bolje 
